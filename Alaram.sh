@@ -3,12 +3,16 @@
 #9 Januray 2019
 #Daily Fresh Juice Downloeader
 
+#Make sure "Play" Env already installed
+echo "Update CLI Player & Install if Nothing"
+sudo apt install sox libsox-fmt-mp3 -y
+
 user=`whoami`
 hari=`date '+%Y-%m-%d'`
 bulan=`date '+%Y/%m'`
 tahun=`date '+%Y'`
-		
-		#Checking is file ready	 
+
+		#Checking is file ready
 	if [[ ! -d /home/$user/Renungan/ ]]; then
    		echo "Creating $folderFile/ folder"
    		mkdir /home/$user/Renungan/
