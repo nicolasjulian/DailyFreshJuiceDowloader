@@ -6,7 +6,11 @@
 #Make sure "Play" Env already installed
 echo "Update CLI Player & Install if Nothing"
 echo "+===========================================+"
-sudo apt install sox libsox-fmt-mp3 -y
+if [[ ! -f /bin/sox ]]; then
+	sudo apt install sox libsox-fmt-mp3 -y
+else
+	echo "Apabila terjadi kesalahan pada saat memutar audio lakukan [sudo apt install sox libsox-fmt-mp3 -y] "
+fi
 
 user=`whoami`
 hari=`date '+%Y-%m-%d'`
