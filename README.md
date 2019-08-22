@@ -9,4 +9,4 @@ Letakkan tools ini di startup, maka tools ini akan mengunduh dan memutar audio r
 
 ![](https://media.giphy.com/media/2Y9OkoJlqMLEkCHCdB/giphy.gif)
 
-Semua Renunngan Harian Tersimpan pada patch : {/home/(yourcurrentuser)/Rennungan}
+Semua Renunngan Harian Tersimpan pada path : {/home/(yourcurrentuser)/Rennungan}
